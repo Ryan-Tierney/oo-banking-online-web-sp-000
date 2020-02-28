@@ -9,6 +9,7 @@ class Transfer
     @amount = amount 
     
   def valid?
-    bank_account.valid? = true 
+    bank_account.valid? = true
+  end 
   end 
 end
