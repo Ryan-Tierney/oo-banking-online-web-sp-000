@@ -17,8 +17,9 @@ class Transfer
     if valid? && @status = "pending"
     self.sender.balance -= @amount
     self.receiver.balance += @amount
-    @status = "complete"
-    
-  else 
+    self.status = "complete"
+  else
+    self.status = "rejected"
+  end 
   end 
 end
