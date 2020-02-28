@@ -25,6 +25,7 @@ class Transfer
   end 
   else 
     self.status = "rejected"
+    
   end 
   end 
 end
