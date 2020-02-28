@@ -7,5 +7,8 @@ class Transfer
     @receiver = receiver
     @status = "pending"
     @amount = amount 
+    
+  def valid?
+    bank_account.valid? = true 
   end 
 end
