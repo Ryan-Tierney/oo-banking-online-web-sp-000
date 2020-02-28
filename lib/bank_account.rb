@@ -1,6 +1,6 @@
 class BankAccount
   
-  attr_reader :name,
+  attr_reader :name
   
   attr_accessor :balance, :status
   
@@ -16,5 +16,8 @@ class BankAccount
   
   def display_balance 
     return "Your balance is $#{@balance}."
+  end 
+  
+  def valid 
   end 
 end
