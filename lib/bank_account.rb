@@ -15,4 +15,7 @@ class BankAccount
   def status
     @status
   end 
+  
+  def deposit 
+  end 
 end
