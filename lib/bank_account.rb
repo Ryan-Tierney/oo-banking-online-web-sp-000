@@ -21,6 +21,6 @@ class BankAccount
   end 
   
   def display_balance 
-    return "your balance is @balance"
+    return "your balance is #{@balance}"
   end 
 end
