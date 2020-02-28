@@ -21,6 +21,6 @@ class BankAccount
   end 
   
   def display_balance 
-    puts @balance
+    return @balance
   end 
 end
